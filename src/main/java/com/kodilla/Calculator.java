@@ -18,7 +18,7 @@ public class Calculator {
     }
     public static void main(String args[]){
         Calculator toCalculate = new Calculator(3,5);
-        System.out.println(toCalculate.sum());
-        System.out.println(toCalculate.subtract());
+        System.out.println("Sum is:" + toCalculate.sum());
+        System.out.println("Subtract is:" + toCalculate.subtract());
     }
 }
